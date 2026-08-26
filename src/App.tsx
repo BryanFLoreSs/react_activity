@@ -7,7 +7,7 @@ function App() {
   const [count, SetCount] = useState(0);
   return (
     <>
-    <h1>Hello World Counter</h1>
+    <h1>Hello Counter</h1>
     <div>
       <button id="decrement" onClick={() => SetCount(count - 1)}>
         -
